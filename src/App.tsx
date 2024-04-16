@@ -32,6 +32,7 @@ class App extends Component<{}, IState> {
           showGraph: true,
         });
       });
+      
       x++;
       if (x > 1000) {
         clearInterval(interval);
